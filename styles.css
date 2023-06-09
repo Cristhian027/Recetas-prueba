@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    padding: 20px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+  }
+
+.card-container {
+    margin: 25px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    width: 250px;
+    background-color: cadetblue;
+    border-radius: 6px;
+}
+
+.card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.card p {
+    margin: 10px;
+    text-align: center;
+}
+
+/* CSS DE CATEGORIAS y Recetas */
+
+.categorias {
+    padding: 35px 60px;
+    background: linear-gradient(90deg, cadetblue, yellowgreen);
+}
+
+.recetas{
+    padding:  35px 60px;
+    background: linear-gradient(90deg, cadetblue, yellowgreen);
+}
+
+.return {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.return-admin {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.return-admin:hover {
+    background-color: #666;
+}
