@@ -8,7 +8,7 @@
 
 <body>
     <header class="header">
-        <h1>Biblioteca de recetas</h1>
+        <h1> Biblioteca de recetas</h1>
     </header>
 
     <div class="card-container">
